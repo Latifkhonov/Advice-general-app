@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 1440px;
+    height: 810px;
+    background: #202733;
+}
+.container{
+    width: 540px;
+    height: 364px;
+    margin-top: 223px;
+    margin-left: 450px;
+    display: inline-block;
+    background: #313A48;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    border-radius: 15px;
+    
+}
+.div1{
+    width: 122px;
+    height: 18px; 
+    margin-top: 48px;
+    margin-left: 208.5px;
+}
+.p1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 18px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 4.08571px;
+    
+    /* Neon Green */
+    color: #53FFAA;
+}
+.div2{
+    width: 444px;
+    height: 114px;
+    margin-top: 24px;
+    margin-left: 48px;
+}
+.p2{
+    width: 444px;
+    height: 14px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    
+    /* Light Cyan */
+    color: #CEE3E9;
+
+}
+.div3{
+    width: 444px;
+    height: 16px;
+    margin-top: 40px;
+    margin-left: 48px;
+}
+
+.desktop{
+    width:444px ;
+    height: 16px;
+    margin-top: 40px;
+}
+.div4{
+    position: absolute;
+    z-index: 10;
+    margin-top: 70px;
+    margin-left: 238px;
+    width: 64px;
+    height: 64px;
+    background: #53FFAA;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div4:hover{
+    
+    box-shadow: 0px 0px 40px #53FFAA;
+}
+@media screen and (max-width:376px) {
+    .container{
+        width: 343px;
+        height: 347px;
+        margin-top: 120px;
+        margin-left: 16px;
+    }
+    .div1{
+        width: 104px;
+        height: 15px;
+        margin-top: 40px;
+        margin-left: 119px;
+    }
+    .p1{
+        width: 104px;
+        height: 15px;
+        font-weight: 800;
+        font-size: 8px;
+        line-height: 15px;
+    }
+    .div2{
+        width: 295px;
+        height: 132px;
+        margin-top: 24px;
+        margin-left: 24px;
+
+    }
+    .p2{
+        width: 295px;
+        height: 132px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        
+    }
+    .div3{
+        width:295px;
+        height: 16px;
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+    .desktop{
+        width: 295px;
+        height:16px ;
+        margin-top: 44px;
+    }
+    .div4{
+        width: 64px;
+        height: 64px;
+        margin-top: 60px;
+        margin-left: 139px;
+        border-radius: 30px;
+        background: #53FFAA;
+    }
+   
+
+}
